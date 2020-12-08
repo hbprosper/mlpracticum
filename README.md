@@ -106,9 +106,9 @@ The notebooks provide detailed background information and explanations and are w
 
 | __notebooks__                   | __description__     |
 | :---          | :--- |
-00_generate_data.ipynb     | Create files data\_01.db and data\_02.db |
-01_classification_sklearn.ipynb           | use __scikit-learn__ to classify data i data\_01.db|
-01_classification.ipynb | use __PyTorch__ to classify data i data\_01.db | 
-02_regression.ipynb | use __PyTorch__ to fit data in data\_02.db |
+00_generate_data.ipynb     | Create files data_01.db and data_02.db |
+01_classification_sklearn.ipynb           | use __scikit-learn__ to classify data in data_01.db|
+01_classification.ipynb | use __PyTorch__ to classify data i data_01.db | 
+02_regression.ipynb | use __PyTorch__ to fit data in data_02.db |
 
 
