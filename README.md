@@ -1,4 +1,7 @@
 # mlpracticum
+
+Date: December 7, 2020
+
 An introduction to the basics of machine learning including the mathematical underpinnings. This practicum comprises several __jupyter__ notebooks (see below) that work with Python 3. 
 
 ### Dependencies and Installation
