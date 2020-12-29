@@ -14,6 +14,7 @@ The jupyter notebooks in this package depend on a few well-known Python packages
 | matplotlib    | a widely used plotting module for producing high quality plots |
 | scikit-learn  | easy to use machine learning toolkit |
 | pytorch       | a powerful, flexible, machine learning toolkit |
+| networkx      | an easy to use graph (i.e., network of node/egdes) module |
 
 Also recommended are
 
@@ -54,6 +55,12 @@ To install pytorch do
 ```bash
 conda install pytorch torchvision -c pytorch
 ```
+
+To install networkx do
+```bash
+conda install networkx
+```
+
 You may also wish to install the rather impressive 3D animation package __vpython__,
 ```bash
 conda install vpython -c vpython
@@ -107,8 +114,12 @@ The notebooks provide detailed background information and explanations and are w
 | __notebooks__                   | __description__     |
 | :---          | :--- |
 00_generate_data.ipynb     | Create files data_01.db and data_02.db |
+| Notebooks using __scikit-learn__ |
 01_classification_sklearn.ipynb           | use __scikit-learn__ to classify the 2D data in data_01.db|
-01_classification.ipynb | use __PyTorch__ to classify the 2D data in data_01.db | 
-02_regression.ipynb | use __PyTorch__ to fit the 1D data in data_02.db |
+| Notebooks using __PyTorch__  |
+01_classification.ipynb | classify the 2D data in data_01.db | 
+02_regression.ipynb | fit the 1D data in data_02.db |
+03_likelihood.ipynb | model a 1D 2-parameter likelihood function |
+04_reinforcement_learning.ipynb | tutorial on Q-learning |
 
 
